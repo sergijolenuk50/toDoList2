@@ -1,0 +1,11 @@
+div{
+    background-color: blueviolet;
+    color:white;
+    border-radius: 6px;
+    margin: 8px;
+    display: inline-block;
+    transition: 0.2s;
+}
+div.admin{
+    background-color: brown;
+}

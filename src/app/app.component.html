@@ -1,0 +1,29 @@
+<div>
+
+    <h1>Тиждунь добра</h1>
+</div>
+
+<!-- <p>My name is  {{name}}</p>
+
+<button (click)="chengeName()">Cheng name</button> -->
+<div>
+    <!-- <app-user-card [user]="users[0]"></app-user-card>
+    <app-user-card [user]="users[1]"></app-user-card>
+    <app-user-card [user]="users[2]"></app-user-card> -->
+
+    <!-- @for (i of users; track $index) {
+
+    <app-user-card [user]="i"></app-user-card> -->
+
+    @for (i of lists; track $index) {
+
+        <app-todolist [list]="i" (onDelete)="deleteItem($event)"></app-todolist>
+    }
+
+<app-user-card></app-user-card>
+</div>
+<div>
+
+    <button (click)="clearAll()">Clear All</button>
+</div>
+<app-list-form></app-list-form>

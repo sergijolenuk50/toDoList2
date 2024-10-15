@@ -1,0 +1,12 @@
+@if(list){
+
+    <div class="list1">
+        <p>Добра справа на день</p>
+        <p>День тижня: {{list?.day}}</p>
+        <p>Назва справи: {{list?.nameCase}}</p>
+        <p>Справа: {{list?.case}}</p>
+        <div>
+            <button (click)="remove()">X</button>
+        </div>
+    </div>
+}

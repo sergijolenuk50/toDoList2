@@ -1,0 +1,16 @@
+@if (user) {
+
+    <div [class.admin] = "user.role === 'Admin'">
+        <p>User Card</p>
+        <p>Name: {{user.name}}</p>
+        <p>Email: {{user.email}}</p>
+        <p>Role: {{user.role}}</p>
+    </div>
+}
+<!-- @else 
+{
+    <div>
+
+        <img src="https://icons8.com/preloaders/preloaders/1494/Spinner-2.gif" alt="">
+    </div>
+} -->
